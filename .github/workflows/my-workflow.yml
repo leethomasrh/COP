@@ -3,7 +3,7 @@ name: Run Update
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   action:
