@@ -37,7 +37,7 @@ jobs:
         run: |
           pwd &&
           ls -al &&
-          python cop_bazaar.py &&
+          pullrequest2/python cop_bazaar.py &&
           mv output output2 &&
           echo "checkout output branch" &&
           git remote update &&
