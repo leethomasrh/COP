@@ -10,9 +10,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Repository Dispatch
-        uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: leethomasrh/cop-bazaar
-          event-type: my-event
+      - name: Repository dispatch
+        run: |
+          curl -X POST https://api.github.com/repos/leethomasrh/cop-bazaar/dispatches \
+          -H 'Accept: application/vnd.github.everest-preview+json' \
+          -u ${{ secrets.GITHUB_TOKEN }} \
+          --data '{"event_type": "my-event", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
+#      - name: Repository Dispatch
+#        uses: actions/checkout@v2
+#       with:
+#         token: ${{ secrets.GITHUB_TOKEN }}
+#          repository: leethomasrh/cop-bazaar
+#          types: my-event
