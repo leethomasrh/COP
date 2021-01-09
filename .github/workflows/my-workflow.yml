@@ -17,7 +17,7 @@ jobs:
           -H \"Content-Type: application/json\" \
           -H \"Authorization: token ${GITHUB_TOKEN}\" \
           https://api.github.com/repos/leethomasrh/cop-bazaar/dispatches \
-          --data '{\"event_type\": \"my-event\"}'"
+          --data '{\"event_type\": \"my-event\"}'
 #          https://api.github.com/repos/leethomasrh/cop-bazaar/dispatches
 #      - name: Repository Dispatch
 #        uses: actions/checkout@v2
