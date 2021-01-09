@@ -13,7 +13,7 @@ jobs:
       - name: Repository dispatch
         run: |
           curl -X POST \
-          -H {'Authorization' : 'token ' + secrets.GITHUB_TOKEN} \
+          -H {Authorization: `Bearer ${process.env.secrets.GITHUB_TOKEN}`} \
           -u ${{ secrets.GITHUB_TOKEN }} \
           https://api.github.com/repos/leethomasrh/cop-bazaar/dispatches
 #      - name: Repository Dispatch
