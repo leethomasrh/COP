@@ -3,51 +3,16 @@ name: Run Update
 on:
   push:
     branches:
-      - main
+      - dispatch
 
 jobs:
   action:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python 3.x
-        uses: actions/setup-python@v2
+      - name: Repository Dispatch
+        uses: lethomasrh/cop-bazaar@dispatch
         with:
-          python-version: '3.x'
-      - name: Install requests module
-        run: pip install requests
-      - name: Install yaml module
-        run: pip install pyyaml
-      - name: setup Github environment
-        run: |
-          #setup username and email to use Github Actions Bot with no default email
-          git config user.name "Github Actions Bot"
-          git config user.email "<>"
-      - name: Checkout remote action
-        uses: actions/checkout@v2
-        with:
-          repository: leethomasrh/cop-bazaar
           token: ${{ secrets.GITHUB_TOKEN }}
-          path: pullrequest2
-      - name: Update COP List
-        shell: bash
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          pwd &&
-          ls -al &&
-          python pullrequest2/cop_bazaar.py &&
-          mv output output2 &&
-          echo "checkout output branch" &&
-          git remote update &&
-          git fetch &&
-          git branch &&
-          git checkout output &&
-          echo "rm output folder and move updated output folder" &&
-          rm -rf output &&
-          mv output2 output &&
-          echo "add, commit and push output update" &&
-          git add output &&
-          git commit -m "Updating output via gitaction" &&
-          git push
+          repository: leethomasrh/cop-bazaar
+          event-type: my-event
