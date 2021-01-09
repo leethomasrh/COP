@@ -148,7 +148,7 @@ repositories:
   categories: [ ocp_workloads ]
 - url: https://github.com/williamcaban/ocp4-lab
   categories: [ ocp_install ]
-- url: https://github.com/test3/ocp4-lab
+- url: https://github.com/leethomasrh/cop-bazaar
   categories: [ ocp_install ]
 
 #Repository('https://gitlab.consulting.redhat.com/nordics/ocp4-vmware-upi-prep', [Category.OCP_INSTALL])
