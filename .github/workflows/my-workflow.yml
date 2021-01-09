@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Repository Dispatch
-        uses: lethomasrh/cop-bazaar
+        uses: lethomasrh/cop-bazaar@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository: leethomasrh/cop-bazaar
