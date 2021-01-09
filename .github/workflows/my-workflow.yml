@@ -35,6 +35,8 @@ jobs:
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          pwd &&
+          ls -al &&
           python cop_bazaar.py &&
           mv output output2 &&
           echo "checkout output branch" &&
