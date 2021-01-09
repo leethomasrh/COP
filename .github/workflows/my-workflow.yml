@@ -12,11 +12,11 @@ jobs:
     steps:
       - name: Repository dispatch
         run: |
-          curl -X POST https://api.github.com/repos/leethomasrh/cop-bazaar/dispatches \
-          -H 'Accept: application/vnd.github.everest-preview+json' \
+          curl -X POST \
+          -H 'Authorization: token secrets.GITHUB_TOKEN' \
           -u ${{ secrets.GITHUB_TOKEN }} \
-          --request POST \
-          --data '{"event_type": "my-event", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
+#          --data '{"event_type": "my-event", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}' \
+          https://api.github.com/repos/leethomasrh/cop-bazaar/dispatches
 #      - name: Repository Dispatch
 #        uses: actions/checkout@v2
 #       with:
