@@ -15,7 +15,6 @@ jobs:
           curl -X POST \
           -H 'Authorization: token secrets.GITHUB_TOKEN' \
           -u ${{ secrets.GITHUB_TOKEN }} \
-#          --data '{"event_type": "my-event", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}' \
           https://api.github.com/repos/leethomasrh/cop-bazaar/dispatches
 #      - name: Repository Dispatch
 #        uses: actions/checkout@v2
