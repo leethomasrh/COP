@@ -7,14 +7,15 @@ on:
       - dispatch
 
 jobs:
-  action:
+  build:
+    name: Dispatch to `other-repo`
     runs-on: ubuntu-latest
-
     steps:
-      - name: Repository Dispatch
-        uses: peter-evans/repository-dispatch@v1
+      - name: Emit repository_dispatch
+        uses: mvasigh/dispatch-action@main
         with:
+          # You should create a personal access token and store it in your repository
           token: ${{ secrets.PAT_TOKEN }}
-          repository: leethomasrh/cop-bazaar
-          event-type: my-event
-          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+          repo: cop-bazaar
+          owner: leethomasrh
+          event_type: my-event
