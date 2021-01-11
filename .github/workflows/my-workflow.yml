@@ -19,3 +19,4 @@ jobs:
           repo: cop-bazaar
           owner: leethomasrh
           event_type: my-event
+          debug: 2
