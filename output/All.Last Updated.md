@@ -4,8 +4,8 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[leethomasrh/cop](https://github.com/leethomasrh/COP) | Run action from another Repo to update output in current repo | 2021-01-13 | 0 
 [redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Documentation: AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2021-01-13 | 263 
+[leethomasrh/cop](https://github.com/leethomasrh/COP) | Run action from another Repo to update output in current repo | 2021-01-13 | 0 
 [tosin2013/openshift-4-deployment-notes](https://github.com/tosin2013/openshift-4-deployment-notes) | notes and scripts for OpenShift 4 Deployment | 2021-01-13 | 18 
 [red-hat-storage/ocs-training](https://github.com/red-hat-storage/ocs-training) | Hands-on workshops for both system administrators and application developers interested in learning how to deploy, manage and use OpenShift Container Storage (OCS) | 2021-01-12 | 69 
 [redhat-cop/pipeline-library](https://github.com/redhat-cop/pipeline-library) | A repository of Jenkins pipeline files we can reference from elsewhere | 2021-01-12 | 42 
