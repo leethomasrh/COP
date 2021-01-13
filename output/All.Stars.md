@@ -66,6 +66,6 @@ Name | Description | Last Updated | Stars
 [noseka1/openshift-post-install](https://github.com/noseka1/openshift-post-install) | Configuration settings to be applied after OpenShift installation | 2021-01-07 | 0 
 [noseka1/quay-kustomization](https://github.com/noseka1/quay-kustomization) | Kustomization for Installing Red Hat Quay on OpenShift | 2021-01-07 | 0 
 [sabre1041/group-sync-operator](https://github.com/sabre1041/group-sync-operator) | Synchronizes groups from external providers into OpenShift | 2021-01-01 | 0 
-[leethomasrh/cop-bazaar](https://github.com/leethomasrh/cop-bazaar) | COP Bazaar | 2021-01-13 | 0 
+[leethomasrh/cop](https://github.com/leethomasrh/COP) | Run action from another Repo to update output in current repo | 2021-01-13 | 0 
 
 [Sort by Last Updated](All.Last%20Updated.md)

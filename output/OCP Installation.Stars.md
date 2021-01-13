@@ -39,6 +39,6 @@ Name | Description | Last Updated | Stars
 [bmangoen/openshift-hybrid-install](https://github.com/bmangoen/openshift-hybrid-install) | OpenShift 4.X hybrid installation | 2020-02-10 | 0 
 [liveaverage/packer-ocp4-vsphere-upi](https://github.com/liveaverage/packer-ocp4-vsphere-upi) | Sample Packer initialization of vSphere UPI for OCP 4 | 2020-04-23 | 0 
 [nccurry/okd-4-libvirt](https://github.com/nccurry/okd-4-libvirt) | Ansible playbooks to deploy OKD on FCOS or OCP on RHCOS into QEMU/KVM. | 2020-06-09 | 0 
-[leethomasrh/cop-bazaar](https://github.com/leethomasrh/cop-bazaar) | COP Bazaar | 2021-01-13 | 0 
+[leethomasrh/cop](https://github.com/leethomasrh/COP) | Run action from another Repo to update output in current repo | 2021-01-13 | 0 
 
 [Sort by Last Updated](OCP%20Installation.Last%20Updated.md)
