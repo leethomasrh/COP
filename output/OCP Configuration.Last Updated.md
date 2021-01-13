@@ -4,9 +4,9 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
+[lbohnsac/OCP4](https://github.com/lbohnsac/OCP4) | OCP4 | 2021-01-12 | 18 
 [noseka1/openshift-post-install](https://github.com/noseka1/openshift-post-install) | Configuration settings to be applied after OpenShift installation | 2021-01-07 | 0 
 [sabre1041/group-sync-operator](https://github.com/sabre1041/group-sync-operator) | Synchronizes groups from external providers into OpenShift | 2021-01-01 | 0 
-[lbohnsac/OCP4](https://github.com/lbohnsac/OCP4) | OCP4 | 2020-12-17 | 18 
 [christianh814/openshift-toolbox](https://github.com/christianh814/openshift-toolbox) | OpenShift Setup Tools, notes, and other howto's | 2020-12-07 | 36 
 [sushilsuresh/ocp4-ansible-roles](https://github.com/sushilsuresh/ocp4-ansible-roles) | None | 2020-11-06 | 30 
 [sabre1041/openshift-logforwarding-splunk](https://github.com/sabre1041/openshift-logforwarding-splunk) | Demonstration of forwarding logs from OpenShift to Splunk | 2020-11-01 | 5 
