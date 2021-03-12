@@ -20,7 +20,8 @@ jobs:
           
       - name: Checkout cop repository
         uses: actions/checkout@v2
-        with: 
+        with:
+          ref: main
           path: ./cop
     
       - name: Set up Python 3.x
@@ -38,6 +39,23 @@ jobs:
           git config --global user.email "<>"
       - name: Run COP update
         shell: bash
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          export TOKEN=${{ secrets.GITHUB_TOKEN }}
           python ./cop-bazaar/cop_bazaar.py
+      - name: Checkout remote output branch
+        uses: actions/checkout@v2
+        with:
+          ref: output
+          path: ./cop-output
+      - name: Push output to COP
+        shell: bash
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          rm -rf ./cop-output/output
+          cd ./cop-output
+          cp -r ../cop/output ./output
+          git add ./output
+          git commit -m "Updating output via gitaction"
+          git push
