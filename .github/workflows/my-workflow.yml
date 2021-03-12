@@ -11,12 +11,32 @@ jobs:
     name: Dispatch to `other-repo`
     runs-on: ubuntu-latest
     steps:
-      - name: Emit repository_dispatch
-        uses: mvasigh/dispatch-action@main
+      - name: Checkout remote main branch
+        uses: actions/checkout@v2
         with:
-          # You should create a personal access token and store it in your repository
-          token: ${{ secrets.PAT }}
-          repo: cop-bazaar
-          owner: leethomasrh
-          event_type: my-event
-          debug: 2
+          repository: leethomasrh/cop-bazaar
+          ref: dispatch
+          path: ./cop-bazaar
+          
+      - name: Checkout cop repository
+        uses: actions/checkout@v2
+        with: 
+          path: ./cop
+    
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install requests module
+        run: pip install requests
+      - name: Install yaml module
+        run: pip install pyyaml
+      - name: setup Github environment
+        run: |
+          #setup username and email to use Github Actions Bot with no default email
+          git config --global user.name "Github Actions Bot"
+          git config --global user.email "<>"
+      - name: Run COP update
+        shell: bash
+        run: |
+          python ./cop-bazaar/cop_bazaar.py
