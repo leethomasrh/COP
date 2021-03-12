@@ -39,5 +39,4 @@ jobs:
       - name: Run COP update
         shell: bash
         run: |
-          cd ./cop
-          python ../cop-bazaar/cop_bazaar.py
+          python ./cop-bazaar/cop_bazaar.py
