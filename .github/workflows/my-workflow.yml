@@ -15,4 +15,4 @@ jobs:
         uses: redhat-cop/github-actions/set-helm-version@master
         with:
           input_path: ./cop
-          output_path: ./cop-outpu
+          output_path: ./cop-output
