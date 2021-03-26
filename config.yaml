@@ -28,8 +28,6 @@ repositories:
   categories: [ ocp_install ]
 - url: https://github.com/alexgdmx/ocp4-vmware-terraform
   categories: [ ocp_install ]
-- url: https://github.com/alexgdmx/ocp4-vmware-terraform
-  categories: [ ocp_install ]
 - url: https://github.com/ashcrow/filetranspiler
   categories: [ ocp_install ]
 - url: https://github.com/bmangoen/openshift-hybrid-install
