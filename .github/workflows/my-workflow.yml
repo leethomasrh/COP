@@ -4,11 +4,11 @@ name: Run Update
 on:
   push:
     branches:
-      - dispatch
+      - use-action
 
 jobs:
   action:
-    name: Dispatch to `other-repo`
+    name: Call remote action
     runs-on: ubuntu-latest
     steps:
       - name: Emit repository_dispatch
