@@ -11,8 +11,7 @@ jobs:
     name: Call remote action
     runs-on: ubuntu-latest
     steps:
-      - name: Emit repository_dispatch
-        uses: leethomasrh/cop-bazaar@action-yaml
+      - uses: leethomasrh/cop-bazaar@action-yaml
         with:
           input_path: ./cop
           output_path: ./cop-output
