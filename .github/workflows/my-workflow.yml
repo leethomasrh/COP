@@ -13,6 +13,6 @@ jobs:
     steps:
       - name: Emit repository_dispatch
         uses: leethomasrh/cop-bazaar@action-yaml
-      with:
-        input_path: ./cop
-        output_path: ./cop-output
+        with:
+          input_path: ./cop
+          output_path: ./cop-output
