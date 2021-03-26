@@ -10,13 +10,13 @@ jobs:
   build:
     name: Dispatch to `other-repo`
     runs-on: ubuntu-latest
-    steps:
-      - name: Emit repository_dispatch
-        uses: mvasigh/dispatch-action@main
-        with:
-          # You should create a personal access token and store it in your repository
-          token: ${{ secrets.PAT }}
-          repo: cop-bazaar
-          owner: leethomasrh
-          event_type: my-event
-          debug: 2
+  steps:
+    - name: Emit repository_dispatch
+      uses: mvasigh/dispatch-action@main
+      with:
+        # You should create a personal access token and store it in your repository
+        token: ${{ secrets.PAT }}
+        repo: cop-bazaar
+        owner: leethomasrh
+        event_type: my-event
+        debug: 2
