@@ -12,50 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout remote main branch
-        uses: actions/checkout@v2
+        uses: redhat-cop/github-actions/set-helm-version@master
         with:
-          repository: leethomasrh/cop-bazaar
-          ref: dispatch
-          path: ./cop-bazaar
-          
-      - name: Checkout cop repository
-        uses: actions/checkout@v2
-        with:
-          ref: main
-          path: ./cop
-    
-      - name: Set up Python 3.x
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-      - name: Install requests module
-        run: pip install requests
-      - name: Install yaml module
-        run: pip install pyyaml
-      - name: setup Github environment
-        run: |
-          #setup username and email to use Github Actions Bot with no default email
-          git config --global user.name "Github Actions Bot"
-          git config --global user.email "<>"
-      - name: Run COP update
-        shell: bash
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python ./cop-bazaar/cop_bazaar.py
-      - name: Checkout remote output branch
-        uses: actions/checkout@v2
-        with:
-          ref: output
-          path: ./cop-output
-      - name: Push output to COP
-        shell: bash
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          rm -rf ./cop-output/output
-          cd ./cop-output
-          cp -r ../cop/output ./output
-          git add ./output
-          git commit -m "Updating output via gitaction"
-          git push
+          input_path: ./cop
+          output_path: ./cop-outpu
