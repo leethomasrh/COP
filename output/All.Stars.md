@@ -42,7 +42,6 @@ Name | Description | Last Updated | Stars
 [mikishapiro/ocp4-cluster-install](https://github.com/mikishapiro/ocp4-cluster-install) | IPI AWS installer for OCP4 | 2020-04-03 | 7 
 [sabre1041/openshift-logforwarding-splunk](https://github.com/sabre1041/openshift-logforwarding-splunk) | Demonstration of forwarding logs from OpenShift to Splunk | 2021-03-14 | 7 
 [aglenn360/ocp4_aws_upi_tf](https://github.com/aglenn360/ocp4_aws_upi_tf) | None | 2019-10-11 | 6 
-[aglenn360/ocp4_aws_upi_tf](https://github.com/aglenn360/ocp4_aws_upi_tf) | None | 2019-10-11 | 6 
 [raffaelespazzoli/ocp4-ansible-libvirt](https://github.com/raffaelespazzoli/ocp4-ansible-libvirt) | None | 2020-03-10 | 6 
 [spagno/ocp4-utils](https://github.com/spagno/ocp4-utils) | OCP4 Script Utils | 2021-03-25 | 6 
 [jcordes73/ocp4labs-ansible](https://github.com/jcordes73/ocp4labs-ansible) | Automation of an OpenShift Lab Cluster | 2020-03-03 | 5 
