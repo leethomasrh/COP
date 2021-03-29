@@ -66,5 +66,6 @@ Name | Description | Last Updated | Stars
 [maci0/openshift4-ansible](https://github.com/maci0/openshift4-ansible) | None | 2019-11-28 | 13 
 [e-minguez/ocp4-upi-bm-pxeless-staticips](https://github.com/e-minguez/ocp4-upi-bm-pxeless-staticips) | Step by step guide to deploy OCP4 UPI on baremetal without PXE and with static IPs | 2019-11-22 | 42 
 [aglenn360/ocp4_aws_upi_tf](https://github.com/aglenn360/ocp4_aws_upi_tf) | None | 2019-10-11 | 6 
+[aglenn360/ocp4_aws_upi_tf](https://github.com/aglenn360/ocp4_aws_upi_tf) | None | 2019-10-11 | 6 
 
 [Sort by Stars](All.Stars.md)
