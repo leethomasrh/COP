@@ -136,6 +136,20 @@ repositories:
   categories: [ ocp_disconnected ]
 - url: https://github.com/sushilsuresh/ocp4-vsphere
   categories: [ ocp_install ]
+- url: https://github.com/tosin2013/nfs-provisioner-role
+  categories: [ ocp_config ]
+- url: https://github.com/tosin2013/openshift-4-deployment-notes
+  categories: [ ocp_install ]
+- url: https://github.com/tsailiming/openshift4-disconnected
+  categories: [ ocp_disconnected ]
+- url: https://github.com/tsailiming/openshift4-vmware-upi
+  categories: [ ocp_install ]
+- url: https://github.com/vchintal/ocp4-vsphere-upi-automation
+  categories: [ ocp_install ]
+- url: https://github.com/willb/openshift-ml-workflows-workshop
+  categories: [ ocp_workloads ]
+- url: https://github.com/williamcaban/ocp4-lab
+  categories: [ ocp_install ]
 
 
 #Repository('https://gitlab.consulting.redhat.com/nordics/ocp4-vmware-upi-prep', [Category.OCP_INSTALL])
