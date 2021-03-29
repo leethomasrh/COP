@@ -5,14 +5,14 @@
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
 [siamaksade/openshift-cd-demo](https://github.com/siamaksade/openshift-cd-demo) | CI/CD Demo on OpenShift | 2020-12-09 | 486 
-[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Documentation: AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2021-03-26 | 274 
-[redhat-cop/containers-quickstarts](https://github.com/redhat-cop/containers-quickstarts) | Images & templates for deploying software to OpenShift | 2021-03-26 | 215 
+[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Documentation: AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2021-03-29 | 274 
+[redhat-cop/containers-quickstarts](https://github.com/redhat-cop/containers-quickstarts) | Images & templates for deploying software to OpenShift | 2021-03-29 | 215 
 [RedHatOfficial/ocp4-helpernode](https://github.com/RedHatOfficial/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2021-02-23 | 205 
 [redhat-cop/openshift-toolkit](https://github.com/redhat-cop/openshift-toolkit) | A collection of code samples to help you get started with OpenShift | 2020-08-10 | 204 
-[redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2021-03-24 | 160 
+[redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2021-03-24 | 161 
 [redhat-cop/container-pipelines](https://github.com/redhat-cop/container-pipelines) | Let's get the ball rolling on some Container-driven CI & CD | 2021-03-16 | 123 
-[red-hat-storage/ocs-training](https://github.com/red-hat-storage/ocs-training) | Hands-on workshops for both system administrators and application developers interested in learning how to deploy, manage and use OpenShift Container Storage (OCS) | 2021-03-25 | 73 
-[vchintal/ocp4-vsphere-upi-automation](https://github.com/RedHatOfficial/ocp4-vsphere-upi-automation) | Automates most of the manual steps of deploying OCP4.x cluster on vSphere | 2021-03-03 | 73 
+[vchintal/ocp4-vsphere-upi-automation](https://github.com/RedHatOfficial/ocp4-vsphere-upi-automation) | Automates most of the manual steps of deploying OCP4.x cluster on vSphere | 2021-03-03 | 74 
+[red-hat-storage/ocs-training](https://github.com/red-hat-storage/ocs-training) | Hands-on workshops for both system administrators and application developers interested in learning how to deploy, manage and use OpenShift Container Storage (OCS) | 2021-03-26 | 73 
 [RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2021-03-24 | 70 
 [noseka1/openshift-auto-upi](https://github.com/noseka1/openshift-auto-upi) | OpenShift Automated User-Provided Infrastructure | 2020-11-09 | 60 
 [chuckersjp/coreos-iso-maker](https://github.com/chuckersjp/coreos-iso-maker) | Create a bunch of coreos ISOs for OCP 4.x installs when you need to set static IPs | 2021-01-21 | 46 
@@ -40,11 +40,12 @@ Name | Description | Last Updated | Stars
 [ralvares/ipxe](https://github.com/ralvares/ipxe) | Automating Openshift Deployment on VMware using Static IPs where DHCP is not a option. | 2020-04-20 | 8 
 [redhat-cop/ocp4-prereqs-validator](https://github.com/redhat-cop/ocp4-prereqs-validator) | Ansible resources to validate the prerequisites for OpenShift 4 | 2019-12-27 | 8 
 [mikishapiro/ocp4-cluster-install](https://github.com/mikishapiro/ocp4-cluster-install) | IPI AWS installer for OCP4 | 2020-04-03 | 7 
+[sabre1041/openshift-logforwarding-splunk](https://github.com/sabre1041/openshift-logforwarding-splunk) | Demonstration of forwarding logs from OpenShift to Splunk | 2021-03-14 | 7 
+[aglenn360/ocp4_aws_upi_tf](https://github.com/aglenn360/ocp4_aws_upi_tf) | None | 2019-10-11 | 6 
 [aglenn360/ocp4_aws_upi_tf](https://github.com/aglenn360/ocp4_aws_upi_tf) | None | 2019-10-11 | 6 
 [raffaelespazzoli/ocp4-ansible-libvirt](https://github.com/raffaelespazzoli/ocp4-ansible-libvirt) | None | 2020-03-10 | 6 
 [spagno/ocp4-utils](https://github.com/spagno/ocp4-utils) | OCP4 Script Utils | 2021-03-25 | 6 
 [jcordes73/ocp4labs-ansible](https://github.com/jcordes73/ocp4labs-ansible) | Automation of an OpenShift Lab Cluster | 2020-03-03 | 5 
-[sabre1041/openshift-logforwarding-splunk](https://github.com/sabre1041/openshift-logforwarding-splunk) | Demonstration of forwarding logs from OpenShift to Splunk | 2021-03-14 | 5 
 [tsailiming/openshift4-disconnected](https://github.com/tsailiming/openshift4-disconnected) | A collection of Ansible playbooks for OCP 4 disconnected | 2021-03-25 | 5 
 [kcalliga/42_deployment](https://github.com/kcalliga/42_deployment) | Ansible Playbooks/Roles to Clone OCP 4.x Repos and Build Supporting Infrastructure Needed for UPI | 2020-12-15 | 4 
 [mvazquezc/code-to-prod-blog](https://github.com/mvazquezc/code-to-prod-blog) | None | 2021-03-02 | 4 
@@ -66,6 +67,5 @@ Name | Description | Last Updated | Stars
 [noseka1/openshift-post-install](https://github.com/noseka1/openshift-post-install) | Configuration settings to be applied after OpenShift installation | 2021-02-09 | 0 
 [noseka1/quay-kustomization](https://github.com/noseka1/quay-kustomization) | Kustomization for Installing Red Hat Quay on OpenShift | 2021-02-18 | 0 
 [sabre1041/group-sync-operator](https://github.com/sabre1041/group-sync-operator) | Synchronizes groups from external providers into OpenShift | 2021-03-17 | 0 
-[leethomasrh/cop-bazaar](https://github.com/leethomasrh/cop-bazaar) | COP Bazaar | 2021-03-26 | 0 
 
 [Sort by Last Updated](All.Last%20Updated.md)

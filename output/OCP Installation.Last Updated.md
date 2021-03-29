@@ -4,17 +4,16 @@
 
 Name | Description | Last Updated | Stars 
 --- | --- | --- | --- 
-[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Documentation: AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2021-03-26 | 274 
-[leethomasrh/cop-bazaar](https://github.com/leethomasrh/cop-bazaar) | COP Bazaar | 2021-03-26 | 0 
+[redhat-cop/agnosticd](https://github.com/redhat-cop/agnosticd) | Documentation: AgnosticD - Ansible Deployer for multiple Cloud Deployers | 2021-03-29 | 274 
 [spagno/ocp4-utils](https://github.com/spagno/ocp4-utils) | OCP4 Script Utils | 2021-03-25 | 6 
 [ashcrow/filetranspiler](https://github.com/ashcrow/filetranspiler) | Creates an update Ignition json file with additions from a fake root. | 2021-03-24 | 41 
 [christianh814/openshift-toolbox](https://github.com/christianh814/openshift-toolbox) | OpenShift Setup Tools, notes, and other howto's | 2021-03-24 | 41 
 [RedHat-EMEA-SSA-Team/hetzner-ocp4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4) | Installing OCP 4 on single bare metal server. | 2021-03-24 | 70 
 [tosin2013/openshift-4-deployment-notes](https://github.com/tosin2013/openshift-4-deployment-notes) | notes and scripts for OpenShift 4 Deployment | 2021-03-24 | 21 
-[redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2021-03-24 | 160 
+[redhat-cop/infra-ansible](https://github.com/redhat-cop/infra-ansible) | Tooling / Ansible to support the many aspects of infrastructure installation, setup and configuration.  | 2021-03-24 | 161 
 [sa-ne/openshift4-vmware-upi](https://github.com/sa-ne/openshift4-vmware-upi) | Ansible Playbooks and Documentation to Support the Automated Installation of OpenShift 4 on VMware | 2021-03-22 | 35 
 [marbe/ocp4-vmware-upi-installer](https://github.com/marbe/ocp4-vmware-upi-installer) | This repository contains Ansible playbooks and tasks for OpenShift 4 cluster installation on vmware with UPI mode. | 2021-03-15 | 8 
-[vchintal/ocp4-vsphere-upi-automation](https://github.com/RedHatOfficial/ocp4-vsphere-upi-automation) | Automates most of the manual steps of deploying OCP4.x cluster on vSphere | 2021-03-03 | 73 
+[vchintal/ocp4-vsphere-upi-automation](https://github.com/RedHatOfficial/ocp4-vsphere-upi-automation) | Automates most of the manual steps of deploying OCP4.x cluster on vSphere | 2021-03-03 | 74 
 [RedHatOfficial/ocp4-helpernode](https://github.com/RedHatOfficial/ocp4-helpernode) | This playbook helps set up an "all-in-one" node, that has all the infrastructure/services in order to install OpenShift 4.  | 2021-02-23 | 205 
 [liveaverage/packer-ocp4-vsphere-upi](https://github.com/liveaverage/packer-ocp4-vsphere-upi) | Sample Packer initialization of vSphere UPI for OCP 4 | 2021-01-27 | 0 
 [chuckersjp/coreos-iso-maker](https://github.com/chuckersjp/coreos-iso-maker) | Create a bunch of coreos ISOs for OCP 4.x installs when you need to set static IPs | 2021-01-21 | 46 
@@ -39,6 +38,7 @@ Name | Description | Last Updated | Stars
 [redhat-cop/ocp4-prereqs-validator](https://github.com/redhat-cop/ocp4-prereqs-validator) | Ansible resources to validate the prerequisites for OpenShift 4 | 2019-12-27 | 8 
 [maci0/openshift4-ansible](https://github.com/maci0/openshift4-ansible) | None | 2019-11-28 | 13 
 [e-minguez/ocp4-upi-bm-pxeless-staticips](https://github.com/e-minguez/ocp4-upi-bm-pxeless-staticips) | Step by step guide to deploy OCP4 UPI on baremetal without PXE and with static IPs | 2019-11-22 | 42 
+[aglenn360/ocp4_aws_upi_tf](https://github.com/aglenn360/ocp4_aws_upi_tf) | None | 2019-10-11 | 6 
 [aglenn360/ocp4_aws_upi_tf](https://github.com/aglenn360/ocp4_aws_upi_tf) | None | 2019-10-11 | 6 
 
 [Sort by Stars](OCP%20Installation.Stars.md)
