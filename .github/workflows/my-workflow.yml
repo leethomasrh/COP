@@ -15,3 +15,5 @@ jobs:
         with:
           input_path: ./cop
           output_path: ./cop-output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
